@@ -45,7 +45,7 @@ public class EmailController {
 	
 	
 	
-	
+	//Abhishek checking code 
 	@PostMapping("/sendMail")
 	public ResponseEntity<?> sendMail(@RequestBody EmailDetails details,UserInfoForm userInfoForm) {
 		Map<String, Object> map = new HashMap<String, Object>();
